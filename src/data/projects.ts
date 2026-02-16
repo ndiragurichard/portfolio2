@@ -154,7 +154,7 @@ images: ['/projects/pizza-sales.jpg', ],
     role: 'Data Analyst',
     duration: '2 weeks',
     githubUrl: 'https://github.com/ndiragurichard/pizza_project',
-    featured: true,
+    featured: false,
     highlights: [
       'Identified top products and peak sales periods',
       'Discovered revenue trends and patterns',
@@ -256,7 +256,58 @@ images: ['/projects/pizza-sales.jpg', ],
     role: 'Data Analyst',
     duration: '2 weeks',
     githubUrl: 'https://github.com/ndiragurichard/adventure_works_excel',
-    featured: false,
+    featured: true,
+    highlights: [
+      'Built interactive Excel dashboards',
+      'Tracked materials and costs effectively',
+      'Created daily progress reports',
+    ],
+  },
+   // ---------------------------------------------------------------------------
+  // PROJECT 6  - Exel sales Dashboard 
+  // ---------------------------------------------------------------------------
+  {
+    id: 'proj-6',
+    slug: 'adventure-works-excel',
+    title: 'Adventure Works Excel Dashboard',
+    description: 'Collected, organized, and reported project data including materials, costs, and daily progress.',
+    longDescription: `Built comprehensive power BI dashboards for Adventure Works data. 
+    Focused on data organization, cost tracking, and daily progress reporting to strengthen 
+    accuracy, documentation, and analytical thinking.`,
+    thumbnail: '/projects/sales.jpg',
+    images: [],
+    technologies: ['Excel', 'Pivot Tables', 'Charts', 'Formulas'],
+    category: 'Dashboard',
+    role: 'Data Analyst',
+    duration: '2 weeks',
+    githubUrl: 'https://github.com/ndiragurichard/excel_sales',
+    featured: true,
+    highlights: [
+      'Built interactive Excel dashboards',
+      'Tracked materials and costs effectively',
+      'Created daily progress reports',
+    ],
+  },
+
+     // ---------------------------------------------------------------------------
+  // PROJECT 7  -  Power BI sales Dashboard
+  // ---------------------------------------------------------------------------
+  {
+    id: 'proj-7',
+    slug: 'sales-excel',
+    title: 'Sales Power BI Dashboard',
+    description: 'Collected, organized, and reported project data including materials, costs, and daily progress.',
+    longDescription: `Built comprehensive power BI dashboards for Adventure Works data. 
+    Focused on data organization, cost tracking, and daily progress reporting to strengthen 
+    accuracy, documentation, and analytical thinking.`,
+    thumbnail: '/projects/hpn.webp',
+    images: [],
+    technologies: ['Power BI', 'Power Querry', 'DAX', 'Charts', 'Formulas'],
+    category: 'Dashboard',
+    role: 'Data Analyst',
+    duration: '2 weeks',
+    githubUrl: 'https://github.com/ndiragurichard/power_BI-sales',
+    featured: true,
     highlights: [
       'Built interactive Excel dashboards',
       'Tracked materials and costs effectively',
